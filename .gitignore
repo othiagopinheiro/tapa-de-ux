@@ -1,0 +1,10 @@
+# Notas locais do Thiago: painel de projetos, instruções e ferramentas que não vão a público
+PROJETO.md
+CLAUDE.local.md
+ferramentas-locais/
+
+# Mapa do projeto (habilidade floorplan): nunca publicar
+floorplan/
+
+# Lixo do sistema
+.DS_Store

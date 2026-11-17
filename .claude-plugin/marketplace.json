@@ -1,0 +1,16 @@
+{
+  "name": "ux-rules",
+  "owner": {
+    "name": "Thiago Pinheiro"
+  },
+  "metadata": {
+    "description": "Regras de UX para o Claude revisar aplicativos."
+  },
+  "plugins": [
+    {
+      "name": "regras-ux",
+      "source": "./plugins/regras-ux",
+      "description": "Regras de UX em português para revisar apps e telas: hierarquia, tipografia, acessibilidade, cor, botões, formulários, estados, UX writing, navegação e psicologia aplicada."
+    }
+  ]
+}
