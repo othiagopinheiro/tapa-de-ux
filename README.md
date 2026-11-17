@@ -21,7 +21,24 @@ Quem nunca ouviu um “dá um tapa no UX”? Uma telinha rápida no fim, como se
 | Navegação | barra, onde estou, voltar, nomes, caminhos, janelas |
 | Psicologia aplicada | leis de Jakob, Hick, Fitts, memória, isolamento, pico e fim, Tesler |
 
-## Instalar no Claude Code
+## Instalar
+
+| Onde você usa | Como instala |
+|---|---|
+| [Claude, no app ou no claude.ai](#no-claude-app-ou-claudeai) | envia um ZIP, sem terminal |
+| [Claude Code](#no-claude-code) | dois comandos, com atualização pelo próprio Claude Code |
+| [Codex, Cursor, GitHub Copilot ou Gemini CLI](#no-codex-cursor-github-copilot-ou-gemini-cli) | descompacta o ZIP numa pasta |
+
+Instale uma língua só: `tapa-de-ux` (português) ou `tapa-de-ux-en` (inglês). Com as duas, a mesma revisão apareceria duas vezes.
+
+### No Claude (app ou claude.ai)
+
+1. Baixe [dist/tapa-de-ux.zip](dist/tapa-de-ux.zip).
+2. No Claude, abra Customize → Skills → “+” → Upload a skill e escolha o ZIP.
+
+Por aqui a regra nova não chega sozinha: baixe o ZIP de novo e envie outra vez.
+
+### No Claude Code
 
 Dentro do Claude Code:
 
@@ -43,27 +60,16 @@ Se o seu computador não tem chave SSH cadastrada no GitHub, use o endereço com
 /plugin marketplace add https://github.com/othiagopinheiro/tapa-de-ux.git
 ```
 
-Instale uma língua só: `tapa-de-ux` (português) ou `tapa-de-ux-en` (inglês). Com as duas, a mesma revisão apareceria duas vezes.
-
-### Receber as regras novas
-
-Regras novas entram com o tempo. O Claude Code não atualiza sozinho skills de terceiros: ligue uma vez em `/plugin` → Marketplaces → tapa-de-ux → Enable auto-update. Ou atualize na mão:
+**Para receber as regras novas:** o Claude Code não atualiza sozinho skills de terceiros. Ligue uma vez em `/plugin` → Marketplaces → tapa-de-ux → Enable auto-update. Ou atualize na mão:
 
 ```
 claude plugin marketplace update tapa-de-ux
 claude plugin update tapa-de-ux@tapa-de-ux
 ```
 
-## Usar no Claude (claude.ai)
+### No Codex, Cursor, GitHub Copilot ou Gemini CLI
 
-1. Baixe [dist/tapa-de-ux.zip](dist/tapa-de-ux.zip).
-2. No Claude, abra Customize → Skills → “+” → Upload a skill e escolha o ZIP.
-
-Por aqui a regra nova não chega sozinha: baixe o ZIP de novo e envie outra vez.
-
-## Usar em outras ferramentas
-
-A skill segue o padrão aberto [Agent Skills](https://agentskills.io/), que outras ferramentas também leem, como o [Codex](https://learn.chatgpt.com/docs/build-skills), o [Cursor](https://cursor.com/docs/skills), o [GitHub Copilot](https://docs.github.com/en/copilot/concepts/customizations/agent-skills) e o [Gemini CLI](https://geminicli.com/docs/cli/skills/). Nelas:
+A skill segue o padrão aberto [Agent Skills](https://agentskills.io/), que essas ferramentas também leem ([Codex](https://learn.chatgpt.com/docs/build-skills), [Cursor](https://cursor.com/docs/skills), [GitHub Copilot](https://docs.github.com/en/copilot/concepts/customizations/agent-skills), [Gemini CLI](https://geminicli.com/docs/cli/skills/)).
 
 1. Baixe [dist/tapa-de-ux.zip](dist/tapa-de-ux.zip).
 2. Descompacte na pasta `.agents/skills`: a da sua pasta pessoal vale para todos os projetos; a de dentro de um projeto, só para ele. No terminal, para todos os projetos:
