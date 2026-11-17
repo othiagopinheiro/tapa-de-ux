@@ -1,20 +1,20 @@
 {
-  "name": "ux-rules",
+  "name": "tapa-de-ux",
   "owner": {
     "name": "Thiago Pinheiro"
   },
   "metadata": {
-    "description": "Regras de UX para o Claude revisar aplicativos, em português e em inglês. UX rules for Claude to review apps, in Portuguese and English."
+    "description": "Tapa de UX: regras de UX para o Claude revisar aplicativos, em português e em inglês. UX rules for Claude to review apps, in Portuguese and English."
   },
   "plugins": [
     {
-      "name": "regras-ux",
-      "source": "./plugins/regras-ux",
+      "name": "tapa-de-ux",
+      "source": "./plugins/tapa-de-ux",
       "description": "Regras de UX em português para revisar apps e telas: hierarquia, tipografia, acessibilidade, cor, botões, formulários, estados, UX writing, navegação e psicologia aplicada."
     },
     {
-      "name": "ux-rules",
-      "source": "./plugins/ux-rules",
+      "name": "tapa-de-ux-en",
+      "source": "./plugins/tapa-de-ux-en",
       "description": "UX rules in English for reviewing apps and screens: hierarchy, typography, accessibility, color, buttons, forms, states, UX writing, navigation and applied psychology."
     }
   ]

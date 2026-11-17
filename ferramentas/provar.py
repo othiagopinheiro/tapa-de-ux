@@ -26,21 +26,21 @@ ZIP_DIR = RAIZ / "dist"
 # Cada skill escreve as regras na sua língua. Os campos e os opcionais estão na
 # mesma ordem nas duas línguas: é assim que a prova casa “Exceção” com “Exception”.
 IDIOMAS = {
-    "regras-ux": {
+    "tapa-de-ux": {
         "pasta": "regras",
         "campos": ["**Regra:**", "**Por quê:**", "**Errado:**", "**Certo:**"],
         "opcionais": ["**O que diz:**", "**Como revisar:**", "**Gravidade:**", "**Exceção:**", "**Fontes:**"],
         "pendentes": ["[a confirmar]", "[a definir]"],
     },
-    "ux-rules": {
+    "tapa-de-ux-en": {
         "pasta": "rules",
         "campos": ["**Rule:**", "**Why:**", "**Wrong:**", "**Right:**"],
         "opcionais": ["**What it says:**", "**How to review:**", "**Severity:**", "**Exception:**", "**Sources:**"],
         "pendentes": ["[to confirm]", "[to be defined]", "[a confirmar]", "[a definir]"],
     },
 }
-ORIGINAL = "regras-ux"      # o português é o original
-TRADUCOES = ["ux-rules"]    # saem do original e têm as mesmas regras
+ORIGINAL = "tapa-de-ux"         # o português é o original
+TRADUCOES = ["tapa-de-ux-en"]   # saem do original e têm as mesmas regras
 
 resultados = []  # (passou, nome, detalhe)
 

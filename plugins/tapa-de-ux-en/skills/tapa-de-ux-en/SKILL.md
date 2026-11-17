@@ -1,5 +1,5 @@
 ---
-name: ux-rules
+name: tapa-de-ux-en
 description: UX review for apps and screens — hierarchy, typography, accessibility, color, buttons, forms, states, UX writing and navigation. Use when reviewing, building or fixing an interface.
 license: CC-BY-4.0
 ---

@@ -1,6 +1,6 @@
 # Modelo de regra
 
-Cada assunto é um arquivo em `plugins/regras-ux/skills/regras-ux/regras/`, com um título (`# Assunto`), um “Como revisar” que vale para o arquivo inteiro e uma seção `## ` por regra. Assunto novo também entra na tabela “Assuntos” do `SKILL.md`.
+Cada assunto é um arquivo em `plugins/tapa-de-ux/skills/tapa-de-ux/regras/`, com um título (`# Assunto`), um “Como revisar” que vale para o arquivo inteiro e uma seção `## ` por regra. Assunto novo também entra na tabela “Assuntos” do `SKILL.md`.
 
 Copie o bloco abaixo para cada regra. Os campos marcados como obrigatórios são cobrados pela prova (`ferramentas/provar.py`).
 

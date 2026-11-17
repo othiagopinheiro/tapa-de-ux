@@ -1,4 +1,4 @@
-# ux-rules — instruções do projeto
+# Tapa de UX — instruções do projeto
 
 Skill aberta de regras de UX para quem faz aplicativo e quer uma revisão. O Thiago dita as regras; o Claude revisa, escreve no formato e põe na skill. O GitHub é a distribuição: não há site nem deploy.
 
@@ -6,22 +6,23 @@ Quem pede e o estilo da casa estão em `~/.claude/CLAUDE.md`. Regras locais, que
 
 ## O projeto
 
-- **Repositório:** github.com/othiagopinheiro/ux-rules — privado até o Thiago decidir abrir.
+- **Nome:** Tapa de UX, nas duas línguas (decisão de 17/11/2026). Vem do pedido de “dar um tapa no UX”; em inglês, “just slap some UX on it”. Plugins `tapa-de-ux` (português) e `tapa-de-ux-en` (inglês). Ao contar a história, nunca dizer onde foi.
+- **Repositório:** github.com/othiagopinheiro/tapa-de-ux — privado até o Thiago decidir abrir.
 - **Grátis e aberta:** sem versão paga (decisão de 17/11/2026), licença CC BY 4.0 — o texto oficial em `LICENSE`, o aviso curto com o crédito em `LICENSE.txt` dentro de cada skill (vai junto no ZIP e em quem copia só a pasta).
 - **Formato:** marketplace de plugins do Claude Code. Markdown e JSON, sem build.
 - **Quem usa:** quem faz app e quer revisão, no Claude Code (instala pelo marketplace), no claude.ai (sobe o ZIP) ou em outra ferramenta do padrão Agent Skills — Codex, Cursor, Copilot, Gemini CLI —, descompactando o mesmo ZIP em `~/.agents/skills` (conferido nas documentações em 17/11/2026; testada só no Claude).
 
 ```
-.claude-plugin/marketplace.json        o marketplace (nome: ux-rules), com os dois plugins
-plugins/regras-ux/                     o plugin em português (o original)
+.claude-plugin/marketplace.json        o marketplace (nome: tapa-de-ux), com os dois plugins
+plugins/tapa-de-ux/                    o plugin em português (o original)
   .claude-plugin/plugin.json
-  skills/regras-ux/SKILL.md            descrição curta + índice dos assuntos
-  skills/regras-ux/regras/*.md         um arquivo por assunto, 7 regras cada
-plugins/ux-rules/                      o plugin em inglês, adaptado do português
-  skills/ux-rules/SKILL.md
-  skills/ux-rules/rules/*.md           os mesmos assuntos, na mesma ordem do índice
+  skills/tapa-de-ux/SKILL.md           descrição curta + índice dos assuntos
+  skills/tapa-de-ux/regras/*.md        um arquivo por assunto, 7 regras cada
+plugins/tapa-de-ux-en/                 o plugin em inglês, adaptado do português
+  skills/tapa-de-ux-en/SKILL.md
+  skills/tapa-de-ux-en/rules/*.md      os mesmos assuntos, na mesma ordem do índice
 modelos/regra.md                       o formato de uma regra
-dist/regras-ux.zip, dist/ux-rules.zip  as skills para o claude.ai (geradas)
+dist/tapa-de-ux.zip, dist/tapa-de-ux-en.zip  as skills para o claude.ai (geradas)
 LICENSE                                a CC BY 4.0, texto oficial, sem mudar nada
 README.md, README.en.md                a página do repositório nas duas línguas
 ferramentas/provar.py                  as provas
@@ -48,5 +49,5 @@ ferramentas/gerar-zip.sh               gera o ZIP
 
 - Enquanto o repositório for privado, o push só guarda.
 - Depois de aberto, todo push chega a quem ligou a atualização automática: pergunte antes de cada push.
-- Para abrir: rever o `README.md` e o `README.en.md` e só então `gh repo edit othiagopinheiro/ux-rules --visibility public`.
+- Para abrir: rever o `README.md` e o `README.en.md` e só então `gh repo edit othiagopinheiro/tapa-de-ux --visibility public`.
 - Se o repositório mudar de nome, o endereço muda nos dois READMEs e nos dois `LICENSE.txt`.

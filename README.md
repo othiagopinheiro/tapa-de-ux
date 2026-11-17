@@ -1,6 +1,6 @@
-# ux-rules
+# Tapa de UX
 
-Regras de UX para o Claude revisar aplicativos. Você pede “revisa esse app” ou “revisa essa tela”, e o Claude aplica as regras sozinho, sem precisar chamar a skill pelo nome.
+O nome vem de um pedido que muito designer já ouviu: “dá um tapa no UX”, ou seja, faz uma telinha rápida no fim, como se UX fosse uma demão de tinta. Esta skill é o contrário: regras de UX, cada uma com a sua fonte, para o Claude revisar aplicativos. Você pede “revisa esse app” ou “revisa essa tela”, e o Claude aplica as regras sozinho, sem precisar chamar a skill pelo nome.
 
 *[English version](README.en.md). As regras são as mesmas nas duas línguas; a skill responde na língua em que você escreve.*
 
@@ -26,37 +26,37 @@ Regras de UX para o Claude revisar aplicativos. Você pede “revisa esse app”
 Dentro do Claude Code:
 
 ```
-/plugin marketplace add othiagopinheiro/ux-rules
-/plugin install regras-ux@ux-rules
+/plugin marketplace add othiagopinheiro/tapa-de-ux
+/plugin install tapa-de-ux@tapa-de-ux
 ```
 
 Ou no terminal:
 
 ```
-claude plugin marketplace add othiagopinheiro/ux-rules
-claude plugin install regras-ux@ux-rules
+claude plugin marketplace add othiagopinheiro/tapa-de-ux
+claude plugin install tapa-de-ux@tapa-de-ux
 ```
 
 Se o seu computador não tem chave SSH cadastrada no GitHub, use o endereço completo no primeiro comando:
 
 ```
-/plugin marketplace add https://github.com/othiagopinheiro/ux-rules.git
+/plugin marketplace add https://github.com/othiagopinheiro/tapa-de-ux.git
 ```
 
-Instale uma língua só: `regras-ux` (português) ou `ux-rules` (inglês). Com as duas, a mesma revisão apareceria duas vezes.
+Instale uma língua só: `tapa-de-ux` (português) ou `tapa-de-ux-en` (inglês). Com as duas, a mesma revisão apareceria duas vezes.
 
 ### Receber as regras novas
 
-Regras novas entram com o tempo. O Claude Code não atualiza sozinho skills de terceiros: ligue uma vez em `/plugin` → Marketplaces → ux-rules → Enable auto-update. Ou atualize na mão:
+Regras novas entram com o tempo. O Claude Code não atualiza sozinho skills de terceiros: ligue uma vez em `/plugin` → Marketplaces → tapa-de-ux → Enable auto-update. Ou atualize na mão:
 
 ```
-claude plugin marketplace update ux-rules
-claude plugin update regras-ux@ux-rules
+claude plugin marketplace update tapa-de-ux
+claude plugin update tapa-de-ux@tapa-de-ux
 ```
 
 ## Usar no Claude (claude.ai)
 
-1. Baixe [dist/regras-ux.zip](dist/regras-ux.zip).
+1. Baixe [dist/tapa-de-ux.zip](dist/tapa-de-ux.zip).
 2. No Claude, abra Customize → Skills → “+” → Upload a skill e escolha o ZIP.
 
 Por aqui a regra nova não chega sozinha: baixe o ZIP de novo e envie outra vez.
@@ -65,19 +65,19 @@ Por aqui a regra nova não chega sozinha: baixe o ZIP de novo e envie outra vez.
 
 A skill segue o padrão aberto [Agent Skills](https://agentskills.io/), que outras ferramentas também leem, como o [Codex](https://learn.chatgpt.com/docs/build-skills), o [Cursor](https://cursor.com/docs/skills), o [GitHub Copilot](https://docs.github.com/en/copilot/concepts/customizations/agent-skills) e o [Gemini CLI](https://geminicli.com/docs/cli/skills/). Nelas:
 
-1. Baixe [dist/regras-ux.zip](dist/regras-ux.zip).
+1. Baixe [dist/tapa-de-ux.zip](dist/tapa-de-ux.zip).
 2. Descompacte na pasta `.agents/skills`: a da sua pasta pessoal vale para todos os projetos; a de dentro de um projeto, só para ele. No terminal, para todos os projetos:
 
    ```
    mkdir -p ~/.agents/skills
-   unzip ~/Downloads/regras-ux.zip -d ~/.agents/skills
+   unzip ~/Downloads/tapa-de-ux.zip -d ~/.agents/skills
    ```
 
 3. Abra a ferramenta de novo.
 
 No [Antigravity CLI](https://antigravity.google/docs/skills), a pasta pessoal é outra: `~/.gemini/config/skills`.
 
-Aqui também a regra nova não chega sozinha: apague a pasta `regras-ux`, baixe o ZIP de novo e descompacte. A skill foi testada no Claude. Nas outras ferramentas as regras são as mesmas, mas o jeito de cada uma usar a skill pode variar.
+Aqui também a regra nova não chega sozinha: apague a pasta `tapa-de-ux`, baixe o ZIP de novo e descompacte. A skill foi testada no Claude. Nas outras ferramentas as regras são as mesmas, mas o jeito de cada uma usar a skill pode variar.
 
 ## Como usar
 
