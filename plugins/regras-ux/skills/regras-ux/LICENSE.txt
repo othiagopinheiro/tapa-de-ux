@@ -1,0 +1,11 @@
+regras-ux — regras de UX para revisar aplicativos
+Copyright © 2026 Thiago Pinheiro
+
+Licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/deed.pt-br
+
+Você pode copiar, adaptar e repassar estas regras, inclusive em trabalho pago,
+desde que dê o crédito a Thiago Pinheiro, aponte a licença e diga o que mudou.
+As regras vêm como estão, sem garantias (seção 5 da licença).
+
+Fonte: https://github.com/othiagopinheiro/ux-rules

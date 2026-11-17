@@ -1,6 +1,7 @@
 ---
 name: regras-ux
 description: Revisão de UX de apps e telas — hierarquia, tipografia, acessibilidade, cor, botões, formulários, estados, textos e navegação. Use ao revisar, criar ou corrigir uma interface.
+license: CC-BY-4.0
 ---
 
 # Regras de UX

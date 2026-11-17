@@ -1,6 +1,7 @@
 ---
 name: ux-rules
 description: UX review for apps and screens — hierarchy, typography, accessibility, color, buttons, forms, states, UX writing and navigation. Use when reviewing, building or fixing an interface.
+license: CC-BY-4.0
 ---
 
 # UX rules

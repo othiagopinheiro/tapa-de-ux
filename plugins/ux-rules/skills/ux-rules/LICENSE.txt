@@ -1,0 +1,11 @@
+ux-rules — UX rules for reviewing apps
+Copyright © 2026 Thiago Pinheiro
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+You may copy, adapt and share these rules, including in paid work, as long as
+you credit Thiago Pinheiro, link to the license and say what you changed.
+The rules are provided as-is, without warranties (section 5 of the license).
+
+Source: https://github.com/othiagopinheiro/ux-rules

@@ -7,8 +7,9 @@ Quem pede e o estilo da casa estão em `~/.claude/CLAUDE.md`. Regras locais, que
 ## O projeto
 
 - **Repositório:** github.com/othiagopinheiro/ux-rules — privado até o Thiago decidir abrir.
+- **Grátis e aberta:** sem versão paga (decisão de 17/11/2026), licença CC BY 4.0 — o texto oficial em `LICENSE`, o aviso curto com o crédito em `LICENSE.txt` dentro de cada skill (vai junto no ZIP e em quem copia só a pasta).
 - **Formato:** marketplace de plugins do Claude Code. Markdown e JSON, sem build.
-- **Quem usa:** quem faz app e quer revisão, no Claude Code (instala pelo marketplace) ou no claude.ai (sobe o ZIP).
+- **Quem usa:** quem faz app e quer revisão, no Claude Code (instala pelo marketplace), no claude.ai (sobe o ZIP) ou em outra ferramenta do padrão Agent Skills — Codex, Cursor, Copilot, Gemini CLI —, descompactando o mesmo ZIP em `~/.agents/skills` (conferido nas documentações em 17/11/2026; testada só no Claude).
 
 ```
 .claude-plugin/marketplace.json        o marketplace (nome: ux-rules), com os dois plugins
@@ -21,6 +22,7 @@ plugins/ux-rules/                      o plugin em inglês, adaptado do portugu�
   skills/ux-rules/rules/*.md           os mesmos assuntos, na mesma ordem do índice
 modelos/regra.md                       o formato de uma regra
 dist/regras-ux.zip, dist/ux-rules.zip  as skills para o claude.ai (geradas)
+LICENSE                                a CC BY 4.0, texto oficial, sem mudar nada
 README.md, README.en.md                a página do repositório nas duas línguas
 ferramentas/provar.py                  as provas
 ferramentas/gerar-zip.sh               gera o ZIP
@@ -46,4 +48,5 @@ ferramentas/gerar-zip.sh               gera o ZIP
 
 - Enquanto o repositório for privado, o push só guarda.
 - Depois de aberto, todo push chega a quem ligou a atualização automática: pergunte antes de cada push.
-- Para abrir: decidir a licença, rever o `README.md` e o `README.en.md` e só então `gh repo edit othiagopinheiro/ux-rules --visibility public`.
+- Para abrir: rever o `README.md` e o `README.en.md` e só então `gh repo edit othiagopinheiro/ux-rules --visibility public`.
+- Se o repositório mudar de nome, o endereço muda nos dois READMEs e nos dois `LICENSE.txt`.

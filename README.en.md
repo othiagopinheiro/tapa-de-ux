@@ -61,6 +61,24 @@ claude plugin update ux-rules@ux-rules
 
 Here, new rules don’t arrive on their own: download the ZIP again and upload it once more.
 
+## Use in other tools
+
+The skill follows the open [Agent Skills](https://agentskills.io/) standard, which other tools also read, such as [Codex](https://learn.chatgpt.com/docs/build-skills), [Cursor](https://cursor.com/docs/skills), [GitHub Copilot](https://docs.github.com/en/copilot/concepts/customizations/agent-skills) and [Gemini CLI](https://geminicli.com/docs/cli/skills/). In those tools:
+
+1. Download [dist/ux-rules.zip](dist/ux-rules.zip).
+2. Unzip it into the `.agents/skills` folder: the one in your home folder works for every project; the one inside a project, for that project only. In the terminal, for every project:
+
+   ```
+   mkdir -p ~/.agents/skills
+   unzip ~/Downloads/ux-rules.zip -d ~/.agents/skills
+   ```
+
+3. Restart the tool.
+
+In [Antigravity CLI](https://antigravity.google/docs/skills), the home folder is different: `~/.gemini/config/skills`.
+
+Here too, new rules don’t arrive on their own: delete the `ux-rules` folder, download the ZIP again and unzip it. The skill was tested in Claude. In other tools the rules are the same, but how each one uses the skill may vary.
+
 ## How to use
 
 - “Review the interface of this app.”
@@ -69,8 +87,8 @@ Here, new rules don’t arrive on their own: download the ZIP again and upload i
 
 The review points out each problem with the rule’s name, where it is and what right looks like, from what gets in the way most to the finishing touches. It proposes and changes nothing unless you ask. Your project’s design system comes before the rules: if a rule clashes with it, the review follows the project and tells you.
 
-## Credit
+## Credit and license
 
 Rules by Thiago Pinheiro, UX designer. The laws and numbers cited have their original source next to each rule. The Portuguese version is the original; this one is adapted from it.
 
-[license to be decided before the repository is opened]
+Licensed under [CC BY 4.0](LICENSE): you may copy, adapt and share the rules, including in paid work, as long as you credit Thiago Pinheiro, link to the license and say what you changed.

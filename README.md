@@ -61,6 +61,24 @@ claude plugin update regras-ux@ux-rules
 
 Por aqui a regra nova não chega sozinha: baixe o ZIP de novo e envie outra vez.
 
+## Usar em outras ferramentas
+
+A skill segue o padrão aberto [Agent Skills](https://agentskills.io/), que outras ferramentas também leem, como o [Codex](https://learn.chatgpt.com/docs/build-skills), o [Cursor](https://cursor.com/docs/skills), o [GitHub Copilot](https://docs.github.com/en/copilot/concepts/customizations/agent-skills) e o [Gemini CLI](https://geminicli.com/docs/cli/skills/). Nelas:
+
+1. Baixe [dist/regras-ux.zip](dist/regras-ux.zip).
+2. Descompacte na pasta `.agents/skills`: a da sua pasta pessoal vale para todos os projetos; a de dentro de um projeto, só para ele. No terminal, para todos os projetos:
+
+   ```
+   mkdir -p ~/.agents/skills
+   unzip ~/Downloads/regras-ux.zip -d ~/.agents/skills
+   ```
+
+3. Abra a ferramenta de novo.
+
+No [Antigravity CLI](https://antigravity.google/docs/skills), a pasta pessoal é outra: `~/.gemini/config/skills`.
+
+Aqui também a regra nova não chega sozinha: apague a pasta `regras-ux`, baixe o ZIP de novo e descompacte. A skill foi testada no Claude. Nas outras ferramentas as regras são as mesmas, mas o jeito de cada uma usar a skill pode variar.
+
 ## Como usar
 
 - “Revisa a interface deste app.”
@@ -69,8 +87,8 @@ Por aqui a regra nova não chega sozinha: baixe o ZIP de novo e envie outra vez.
 
 A revisão aponta cada problema com o nome da regra, onde ele está e como fica certo, do que mais atrapalha para o acabamento. Ela propõe e não muda nada sem você pedir. O design system do seu projeto vem antes das regras: se uma regra bater de frente com ele, a revisão segue o projeto e avisa.
 
-## Crédito
+## Crédito e licença
 
 Regras de Thiago Pinheiro, designer de UX. As leis e os números citados têm a fonte original ao lado de cada regra.
 
-[licença a decidir antes de abrir o repositório]
+Licença [CC BY 4.0](LICENSE): você pode copiar, adaptar e repassar as regras, inclusive em trabalho pago, desde que dê o crédito a Thiago Pinheiro, aponte a licença e diga o que mudou.

@@ -3,5 +3,6 @@
   "description": "UX rules in English for reviewing apps and screens: hierarchy, typography, accessibility, color, buttons, forms, states, UX writing, navigation and applied psychology.",
   "author": {
     "name": "Thiago Pinheiro"
-  }
+  },
+  "license": "CC-BY-4.0"
 }
