@@ -81,11 +81,16 @@ Here too, new rules don’t arrive on their own: delete the `tapa-de-ux-en` fold
 
 ## How to use
 
-- “Review the interface of this app.”
-- “Review this screenshot of the sign-up screen.”
-- “Build the settings screen following the UX rules.”
+You don’t need to call the topics one by one. A general request goes through all 10; for just one, say which.
 
-The review points out each problem with the rule’s name, where it is and what right looks like, from what gets in the way most to the finishing touches. It proposes and changes nothing unless you ask. Your project’s design system comes before the rules: if a rule clashes with it, the review follows the project and tells you.
+- “Review the interface of this app.” — every topic.
+- “Review this screenshot of the sign-up screen.” — every topic, on that screen only.
+- “Review only the accessibility of this screen.” — one topic.
+- “Build the settings screen following the UX rules.” — the rules apply without being cited.
+
+The review comes as a single list, not split by topic: each problem with the rule’s name, where it is and what right looks like, from what gets in the way most to the finishing touches. It proposes and changes nothing unless you ask. Your project’s design system comes before the rules: if a rule clashes with it, the review follows the project and tells you.
+
+If the skill doesn’t kick in on its own, call it by name: `/tapa-de-ux-en:tapa-de-ux-en` in Claude Code; in claude.ai and other tools, “use the tapa-de-ux-en skill”.
 
 ## Credit and license
 

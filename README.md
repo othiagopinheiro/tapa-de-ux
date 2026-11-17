@@ -81,11 +81,16 @@ Aqui também a regra nova não chega sozinha: apague a pasta `tapa-de-ux`, baixe
 
 ## Como usar
 
-- “Revisa a interface deste app.”
-- “Revisa esse print da tela de cadastro.”
-- “Cria a tela de configurações seguindo as regras de UX.”
+Não precisa chamar os assuntos um por um. Um pedido geral passa pelos 10; para um só, diga qual.
 
-A revisão aponta cada problema com o nome da regra, onde ele está e como fica certo, do que mais atrapalha para o acabamento. Ela propõe e não muda nada sem você pedir. O design system do seu projeto vem antes das regras: se uma regra bater de frente com ele, a revisão segue o projeto e avisa.
+- “Revisa a interface deste app.” — todos os assuntos.
+- “Revisa esse print da tela de cadastro.” — todos, só nessa tela.
+- “Revisa só a acessibilidade desta tela.” — um assunto.
+- “Cria a tela de configurações seguindo as regras de UX.” — as regras entram sem ser citadas.
+
+A revisão vem numa lista só, sem separar por assunto: cada problema com o nome da regra, onde ele está e como fica certo, do que mais atrapalha para o acabamento. Ela propõe e não muda nada sem você pedir. O design system do seu projeto vem antes das regras: se uma regra bater de frente com ele, a revisão segue o projeto e avisa.
+
+Se a skill não entrar sozinha, chame pelo nome: `/tapa-de-ux:tapa-de-ux` no Claude Code; no claude.ai e nas outras ferramentas, “usa a skill tapa-de-ux”.
 
 ## Crédito e licença
 
