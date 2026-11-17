@@ -4,13 +4,18 @@
     "name": "Thiago Pinheiro"
   },
   "metadata": {
-    "description": "Regras de UX para o Claude revisar aplicativos."
+    "description": "Regras de UX para o Claude revisar aplicativos, em português e em inglês. UX rules for Claude to review apps, in Portuguese and English."
   },
   "plugins": [
     {
       "name": "regras-ux",
       "source": "./plugins/regras-ux",
       "description": "Regras de UX em português para revisar apps e telas: hierarquia, tipografia, acessibilidade, cor, botões, formulários, estados, UX writing, navegação e psicologia aplicada."
+    },
+    {
+      "name": "ux-rules",
+      "source": "./plugins/ux-rules",
+      "description": "UX rules in English for reviewing apps and screens: hierarchy, typography, accessibility, color, buttons, forms, states, UX writing, navigation and applied psychology."
     }
   ]
 }

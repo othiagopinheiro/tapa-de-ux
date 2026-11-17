@@ -31,7 +31,7 @@ Regras para revisar aplicativos e para criar telas que já nasçam certas. Cada 
 5. Proponha; não mude. Só altere o app se a pessoa pedir.
 6. O design system do projeto e o pedido explícito de quem usa vêm antes destas regras. Se uma regra bater de frente com eles, siga o projeto e avise do conflito em uma frase.
 7. Quando a regra manda perguntar — o tom de uma fonte, um gradiente que pode ser da marca —, pergunte antes de julgar.
-8. Responda na língua da conversa, mesmo que as regras estejam em português.
+8. Responda na língua da conversa. Os exemplos estão em português; num app em outra língua, aplique a mesma regra com as convenções dela.
 
 ## Ao criar ou mudar uma tela
 

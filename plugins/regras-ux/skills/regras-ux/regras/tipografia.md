@@ -85,7 +85,7 @@ A escala de tamanhos e o título marcado no código estão na hierarquia (`hiera
 
 **Certo:** “Meus filmes”; “Ver todos os filmes”; “NOVO” como rótulo curto.
 
-**Fontes:** Microsoft Writing Style Guide, Capitalization — caixa de frase como padrão (https://learn.microsoft.com/en-us/style-guide/capitalization); Apple, Writing — um estilo de maiúsculas por tipo de elemento, sempre igual (https://developer.apple.com/design/human-interface-guidelines/writing).
+**Fontes:** Microsoft Writing Style Guide, Capitalization — caixa de frase como padrão (https://learn.microsoft.com/en-us/style-guide/capitalization); Apple, Writing — um estilo de maiúsculas por tipo de elemento, sempre igual (https://developer.apple.com/design/human-interface-guidelines/writing); Apple, Alerts — em inglês, os botões no estilo de título da Apple (title-style capitalization) (https://developer.apple.com/design/human-interface-guidelines/alerts).
 
 ## A fonte combina com o produto
 

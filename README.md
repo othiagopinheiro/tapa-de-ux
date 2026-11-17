@@ -2,7 +2,7 @@
 
 Regras de UX para o Claude revisar aplicativos. Você pede “revisa esse app” ou “revisa essa tela”, e o Claude aplica as regras sozinho, sem precisar chamar a skill pelo nome.
 
-*English version coming soon. The skill already answers in the language you write in.*
+*[English version](README.en.md). As regras são as mesmas nas duas línguas; a skill responde na língua em que você escreve.*
 
 ## O que tem
 
@@ -42,6 +42,8 @@ Se o seu computador não tem chave SSH cadastrada no GitHub, use o endereço com
 ```
 /plugin marketplace add https://github.com/othiagopinheiro/ux-rules.git
 ```
+
+Instale uma língua só: `regras-ux` (português) ou `ux-rules` (inglês). Com as duas, a mesma revisão apareceria duas vezes.
 
 ### Receber as regras novas
 
