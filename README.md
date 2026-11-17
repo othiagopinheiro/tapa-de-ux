@@ -1,6 +1,6 @@
 # Tapa de UX
 
-O nome vem de um pedido que muito designer já ouviu: “dá um tapa no UX”, ou seja, faz uma telinha rápida no fim, como se UX fosse uma demão de tinta. Esta skill é o contrário: regras de UX, cada uma com a sua fonte, para o Claude revisar aplicativos. Você pede “revisa esse app” ou “revisa essa tela”, e o Claude aplica as regras sozinho, sem precisar chamar a skill pelo nome.
+Quem nunca ouviu um “dá um tapa no UX”? Uma telinha rápida no fim, como se UX fosse uma demão de tinta. Esta skill é o contrário: regras de UX, cada uma com a sua fonte, para a sua IA revisar aplicativos. Você pede “revisa esse app” ou “revisa essa tela”, e a IA aplica as regras sozinha, sem precisar chamar a skill pelo nome.
 
 *[English version](README.en.md). As regras são as mesmas nas duas línguas; a skill responde na língua em que você escreve.*
 

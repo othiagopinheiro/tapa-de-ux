@@ -1,6 +1,6 @@
 # Tapa de UX
 
-The name is Brazilian Portuguese for a “UX slap”, a request many designers have heard: just slap some UX on it, a quick screen at the end, as if UX were a coat of paint. This skill is the opposite: UX rules, each with its source, for Claude to review apps. You ask “review this app” or “review this screen”, and Claude applies the rules on its own, without you having to call the skill by name.
+Ever been asked to “just slap some UX on it”? In Brazil, that’s a *tapa de UX*, a “UX slap”: a quick screen at the end, as if UX were a coat of paint. This skill is the opposite: UX rules, each with its source, for your AI to review apps. You ask “review this app” or “review this screen”, and your AI applies the rules on its own, without you having to call the skill by name.
 
 *[Versão em português](README.md). The rules are the same in both languages; the skill answers in the language you write in.*
 
