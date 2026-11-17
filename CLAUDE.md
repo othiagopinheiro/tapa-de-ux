@@ -6,8 +6,8 @@ Quem pede e o estilo da casa estão em `~/.claude/CLAUDE.md`. Regras locais, que
 
 ## O projeto
 
-- **Nome:** Tapa de UX, nas duas línguas (decisão de 17/11/2026). Vem do pedido de “dar um tapa no UX”; em inglês, “just slap some UX on it”. Plugins `tapa-de-ux` (português) e `tapa-de-ux-en` (inglês). Ao contar a história, nunca dizer onde foi.
-- **Repositório:** github.com/othiagopinheiro/tapa-de-ux — privado até o Thiago decidir abrir.
+- **Nome:** Tapa de UX, nas duas línguas (decisão de 17/11/2026). Vem do pedido de “dar um tapa no UX”; em inglês, “just slap some UX on it”. Plugins `tapa-de-ux` (português) e `tapa-de-ux-en` (inglês).
+- **Repositório:** github.com/othiagopinheiro/tapa-de-ux — público desde 17/11/2026.
 - **Grátis e aberta:** sem versão paga (decisão de 17/11/2026), licença CC BY 4.0 — o texto oficial em `LICENSE`, o aviso curto com o crédito em `LICENSE.txt` dentro de cada skill (vai junto no ZIP e em quem copia só a pasta).
 - **Formato:** marketplace de plugins do Claude Code. Markdown e JSON, sem build.
 - **Quem usa:** quem faz app e quer revisão, no Claude Code (instala pelo marketplace), no claude.ai (sobe o ZIP) ou em outra ferramenta do padrão Agent Skills — Codex, Cursor, Copilot, Gemini CLI —, descompactando o mesmo ZIP em `~/.agents/skills` (conferido nas documentações em 17/11/2026; testada só no Claude).
@@ -47,7 +47,6 @@ ferramentas/gerar-zip.sh               gera o ZIP
 
 ## Publicação
 
-- Enquanto o repositório for privado, o push só guarda.
-- Depois de aberto, todo push chega a quem ligou a atualização automática: pergunte antes de cada push.
-- Para abrir: rever o `README.md` e o `README.en.md` e só então `gh repo edit othiagopinheiro/tapa-de-ux --visibility public`.
+- O repositório é público: todo push chega a quem ligou a atualização automática. Pergunte antes de cada push.
+- Commits só com o e-mail privado do GitHub (`…@users.noreply.github.com`), já configurado neste repositório. O e-mail pessoal nunca entra num commit: o histórico é público.
 - Se o repositório mudar de nome, o endereço muda nos dois READMEs e nos dois `LICENSE.txt`.
