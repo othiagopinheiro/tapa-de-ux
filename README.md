@@ -6,7 +6,7 @@ Quem nunca ouviu um “dá um tapa no UX”? Uma telinha rápida no fim, como se
 
 ## O que tem
 
-70 regras em 10 assuntos. Cada regra diz o que fazer, por quê, um exemplo errado, um certo e de onde vem.
+70 verificações em 10 assuntos. Cada uma é uma regra que diz o que fazer, por quê, um exemplo errado, um certo e de onde vem.
 
 | Assunto | O que a revisão olha |
 |---|---|

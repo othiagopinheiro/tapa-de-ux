@@ -6,7 +6,7 @@ Ever been asked to “just slap some UX on it”? In Brazil, that’s a *tapa de
 
 ## What’s inside
 
-70 rules in 10 topics. Each rule says what to do, why, a wrong example, a right one and where it comes from.
+70 checks in 10 topics. Each one is a rule that says what to do, why, a wrong example, a right one and where it comes from.
 
 | Topic | What the review looks at |
 |---|---|
